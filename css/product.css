@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lmain {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background-color: rgb(243, 61, 222);
+    filter: blur(260px);
+    z-index: -9;
+}
+.mmain {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    bottom: -150px;
+    left: 270px;
+    background-color: rgb(67, 241, 244);
+    filter: blur(260px);
+    z-index: -9;
+}
+.rmain {
+    height: 500px;
+    width: 500px;
+    right: 190px;
+    top: 150px;
+    /* float: right; */
+    position: absolute;
+    background-color: rgb(83, 244, 137);
+    filter: blur(260px);
+    z-index: -9;
+}
+
+#form {
+
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+
+}
+
+.col p {
+    background-color: black;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+
+}
+
+.items p {
+    /* background-color: black; */
+    /* color: #fff; */
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    border: 3px solid black;
+    border-radius: 7px;
+
+}
+
+#pid {
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    /* margin-right: 20px; */
+}
+#qid {
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+    /* margin-right: 20px; */
+}
+
+button {
+    padding: 15px 20px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.pdata {
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.pdata p {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.hr {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.m {
+    background-color: #2B2E4A;
+    padding: 15px;
+    border-radius: 15px;
+}

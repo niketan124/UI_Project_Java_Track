@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lmain {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background-color: rgb(216, 228, 37);
+    filter: blur(260px);
+    z-index: -9;
+}
+.mmain {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    bottom: -150px;
+    left: 270px;
+    background-color: rgb(51, 168, 246);
+    filter: blur(260px);
+    z-index: -9;
+}
+.rmain {
+    height: 500px;
+    width: 500px;
+    right: 190px;
+    top: 150px;
+    /* float: right; */
+    position: absolute;
+    background-color: rgb(83, 244, 137);
+    filter: blur(260px);
+    z-index: -9;
+}
+
+.bTitle {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 250ms ease-in-out;
+
+}
+
+.main {
+    transform: scale(0.8);
+}
+
+.top h1 {
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 250ms ease-in-out;
+}
+
+.bTitle:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.top h1:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  center;
+    column-gap: 30rem;
+    /* width: 1000px; */
+}
+
+.bRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    float: left;
+    margin-left: -30rem;
+}
+
+.bRow p {
+    font-size: 20px;
+}
+
+.test {
+    /* width: 100%; */
+    margin-left: 26rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.pr {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bInvoice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.bInvoice h1 {
+    color: #fff;
+    text-align: center;
+    background-color: #2B2E4A;
+    padding: 15px;
+    border-radius: 15px;
+    /* margin-bottom: 40px; */
+    transition: 250ms ease-in-out;
+}
+
+.bInvoice p {
+    color: #fff;
+    text-align: center;
+    background-color: #2B2E4A;
+    padding: 15px;
+    border-radius: 15px;
+    /* margin-bottom: 40px; */
+    transition: 250ms ease-in-out;
+    font-size: 20px;
+    width: 600px;
+}
+
+.bInvoice h1:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.bInvoice p:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.test {
+    color: #fff;
+    background-color: #2B2E4A;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 250ms ease-in-out;
+}
+
+.test:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.print {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background-color: #5273ec;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 250ms ease-in-out;
+    margin-right: 50px;
+}
+
+.print:hover {
+    cursor: pointer;
+    background-color: #375bda;
+    transform: scale(1.08);
+}
+.home {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    color: #fff;
+    background-color: #4F200D;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 250ms ease-in-out;
+    margin-right: 50px;
+}
+
+.home:hover {
+    cursor: pointer;
+    background-color: #375bda;
+    transform: scale(1.08);
+}
+

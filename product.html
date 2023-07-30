@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/product.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="lmain">
+
+    </div>
+    <div class="mmain">
+
+    </div>
+    <div class="rmain" >
+
+    </div>
+    <div class="main">
+        <div class="title">
+            <h1 style="background-color: #060047; padding: 15px; color: #fff; border-radius: 15px;">Welcome to Data Screen Page</h1>
+        </div>
+        <div class="products">
+            <div class="col">
+                <p style="align-items: center;">Code</p>
+                <p>Quantity</p>
+                <p>Name</p>
+                <p>Price</p>
+                <p>Total</p>
+            </div>
+            <hr style=" border: 1px solid black; width: 100%;">
+            <div class="col">
+                <form class="col" id="form" style="display: flex; flex-direction: row; gap: 7em;">
+                    <input id="pid" type="number" placeholder="id">
+                    <input id="qid" type="number" placeholder="quantity">
+                    <!-- <p style="background-color: #fff; color: #000;">-----</p> -->
+                    <p style="background-color: #fff; color: #000;">-----</p>
+                    <p style="background-color: #fff; color: #000;">-----</p>
+                    <p style="background-color: #fff; color: #000;"s><button id="getProduct" type="submit">search</button></p>
+                </form>
+            </div>
+
+            <hr style=" border: 1px solid black; width: 100%;">
+
+            <div class="col pdata"  id="productAdd">
+
+            </div>
+            <div class="col"  id="gd">
+                <h1>Grand Total: <span style="color: red;" id="gtotal" ></span></h1>
+            </div>
+
+            <div>
+                <h1><a onclick="showAlert()" id="bill" href="./bill.html"></a></h1>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script>
+</script>
+<script src="./scripts/product.js"></script>
+<script>
+    function showAlert() {
+        alert("You are about to generate bill for the following products!")
+    }
+</script>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bill.css">
+</head>
+<body id="billPage">
+    <div class="lmain">
+
+    </div>
+    <div class="mmain">
+
+    </div>
+    <div class="rmain" >
+
+    </div>
+    <div class="main">
+        <div>
+            <h1 class="bTitle">Welcome to Bill Page</h1>
+        </div>
+        <div class="top">
+            <div>
+                <h1>Bill Id: <span style="color: #FF2E63;" id="billId"></span></h1>
+            </div>
+            <div>
+                <h1>Date: <span style="color: red;" id="date" ></span></h1>
+            </div>
+        </div>
+        <div class="top">
+            <div>
+                <h1>Products</h1>
+            </div>
+            <div>
+                <h1>Price</h1>
+            </div>
+        </div>
+        <div id="bMain">
+
+        </div>
+
+        <hr style=" border: 1px solid black; width: 100%;">
+
+        <div class="bInvoice">
+            <h1>Total: <span style="color: red;" id="t"></span></h1>
+            <h1>GST: <span style="color: red;">5%</span></h1>
+            <h1>Grand Total: <span style="color: red;" id="gt"></span></h1>
+            <p style="font-weight: bold;">TOTAL AMOUNT IN WORDS:&nbsp;
+                <span style="font-weight: bold; color: red;" id="num2text"></span>
+            </p>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin-top: 30px;">
+            <button class="print"  onclick="window.print()">Print Invoice</button>
+            <form onsubmit="showAlert()" action="./index.html">
+            <button class="home" type="submit">Go Home</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+<script src="./scripts/bill.js"></script>
+
+<script>
+    document.lo
+    const bId = document.getElementById("billId");
+    bId.innerHTML = Math.random().toString(16).substr(2, 12); 
+    const bDate = document.getElementById("date")
+    const currDate =  new Date()
+    bDate.innerHTML = currDate.toISOString().substring(0,10)
+
+    function showAlert() {
+        alert("Are you sure? you're about to redirect to login page.")
+    }
+
+</script>
+</html>

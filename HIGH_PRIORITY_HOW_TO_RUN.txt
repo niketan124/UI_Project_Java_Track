@@ -1,0 +1,3 @@
+In this project I used an API endpoint to get product data as response. So, please make sure sir, to have internet connection to get the desired implementation.
+
+And please find the below link in where I have deployed my project in netlify to get readily avaliable.
